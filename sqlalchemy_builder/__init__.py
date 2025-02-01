@@ -1,5 +1,4 @@
-# sqlalchemy-builder
-Build SQLAlchemy statements avoiding common footguns.
+"""Build SQLAlchemy statements avoiding common footguns.
 
 ## Example
 Build select statements functionally using `|` and `|=`
@@ -22,8 +21,6 @@ if value:
     statement |= where(Model.value == value)
 ```
 
-
-
 ## Why?
 There is a common mistake when building sqlalchemy statements.
 
@@ -45,13 +42,7 @@ This can be a bit verbose though not the worst issue. By using implace `|=` we c
 
 It's also just a fun syntax to play with.
 
-## Development
-Installing dependencies:
-```bash
-$ uv sync 
-```
+"""
+from . import select
 
-Running tests:
-```bash
-$ uv run pytest
-```
+__all__ = ("select",)
