@@ -44,6 +44,7 @@ are used statically and supports <code>|</code> and <code>|=</code> operators.</
 stmt = select(MyModel) | where(MyModel.x == 1)
 stmt |= order_by(MyModel.id)
 </code></pre>
+<p>NOTE: Only use with base <code>select</code>, <code>GenerativeSelect</code> and <code>CompoundSelect</code> may not work correctly.</p>
 <p>The following sqlalchemy operations are available:</p>
 <ul>
 <li><a href="https://docs.sqlalchemy.org/en/20/core/selectable.html#sqlalchemy.sql.expression.Select.where">where</a></li>

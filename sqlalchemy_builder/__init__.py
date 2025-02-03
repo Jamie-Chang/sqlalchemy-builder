@@ -38,7 +38,8 @@ To fix this we have to assign it:
 statement = statement.where(...)
 ```
 
-This can be a bit verbose though not the worst issue. By using implace `|=` we can avoid this issue without making the statement mutable.
+This can be a bit verbose though not the worst issue. By using implace `|=` we can avoid this issue
+without making the statement mutable.
 
 It's also just a fun syntax to play with.
 

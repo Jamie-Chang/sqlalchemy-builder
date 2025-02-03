@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sqlalchemy-builder"
-version = "0.1.0"
+version = "0.1.1"
 authors = [{ name = 'Jamie Chang', email = 'jamie.cheng.chang@gmail.com' }]
 maintainers = [{ name = 'Jamie Chang', email = 'jamie.cheng.chang@gmail.com' }]
 description = "Build SQLAlchemy statements avoiding common footguns."

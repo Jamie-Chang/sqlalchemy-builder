@@ -10,6 +10,8 @@ stmt = select(MyModel) | where(MyModel.x == 1)
 stmt |= order_by(MyModel.id)
 ```
 
+NOTE: Only use with base `select`, `GenerativeSelect` and `CompoundSelect` may not work correctly.
+
 The following sqlalchemy operations are available:
 
 - [where](https://docs.sqlalchemy.org/en/20/core/selectable.html#sqlalchemy.sql.expression.Select.where)
