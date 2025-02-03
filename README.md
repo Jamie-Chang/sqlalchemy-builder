@@ -1,5 +1,9 @@
 # sqlalchemy-builder
+[![PyPI version](https://badge.fury.io/py/sqlalchemy-builder.svg)](https://badge.fury.io/py/sqlalchemy-builder)
+
 Build SQLAlchemy statements avoiding common footguns.
+
+Check out the [documentation](https://jamie-chang.github.io/sqlalchemy-builder/)
 
 ## Example
 Build select statements functionally using `|` and `|=`
@@ -22,7 +26,15 @@ if value:
     statement |= where(Model.value == value)
 ```
 
+## Installation
+```shell
+$ uv add sqlalchemy-builder
+```
 
+or 
+```shell
+$ pip install sqlalchemy-builder
+```
 
 ## Why?
 There is a common mistake when building sqlalchemy statements.
