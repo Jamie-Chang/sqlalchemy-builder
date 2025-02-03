@@ -1,5 +1,8 @@
 # sqlalchemy-builder
 [![PyPI version](https://badge.fury.io/py/sqlalchemy-builder.svg)](https://badge.fury.io/py/sqlalchemy-builder)
+[![Pydantic v2](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydantic/pydantic/main/docs/badge/v2.json)](https://pydantic.dev)
+[![pydantic.run](https://img.shields.io/badge/Sandbox-1e293b?logo=pydantic)](https://pydantic.run/store/a075fad4d27ad9d0)
+
 
 Build SQLAlchemy statements avoiding common footguns.
 
